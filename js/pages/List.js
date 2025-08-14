@@ -121,7 +121,15 @@ export default {
                         Easy버전 클리어 영상 등록불가. 오로지 원본만.
                     </p>
                     <p>
-                        Legacy도 받아요, 근데 점수는 안오름."
+                        Legacy도 받아요, 근데 점수는 안오름.
+                    </p>
+                    <p>
+                        Terex47GDPS 다운로드 링크 (PC)
+                        "https://www.mediafire.com/file/2m38gamkrdnfi5i/Terex47GDPS.zip/file"
+                    </p>
+                    <p>
+                        Terex47GDPS 다운로드 링크 (Android)
+                        "https://www.mediafire.com/file/0w8wuxs6cous79g/Terex47GDPS.apk/file"
                     </p>
                 </div>
             </div>
