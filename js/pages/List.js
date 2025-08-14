@@ -160,14 +160,14 @@ export default {
         // Error handling
         if (!this.list) {
             this.errors = [
-                "Failed to load list. Retry in a few minutes or notify list staff.",
+                "ㅈㅅ 윤창기가 방구테러하고 가서 서버 복원 중",
             ];
         } else {
             this.errors.push(
                 ...this.list
                     .filter(([_, err]) => err)
                     .map(([_, err]) => {
-                        return `Failed to load level. (${err}.json)`;
+                        return `"레벨을 불러올 수 가 읎단다." (${err}.json)`;
                     })
             );
             if (!this.editors) {
