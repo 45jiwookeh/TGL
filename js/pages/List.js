@@ -25,7 +25,7 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="i + 1 <= 30" class="type-label-lg">#{{ i + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
@@ -98,30 +98,30 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3>Submission Requirements</h3>
+                    <h3>"포럼등록 규칙 (안읽으면 윤창기)"</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        "핵쓰면 당연히 안 됩니다." (FPS Bypass를 썼다면, 360FPS까지 제한함.)
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        "클리어 영상 업로드 할 때, 반드시 그 레벨의 ID와 일치하여야 함."
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                        "클릭효과음 그런거 굳이 필요없음."
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
+                        "윤창기."
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        "클리어 영상은 무조건 100% 에서 클리어 벽에 들어가는 거 까지 포함되어야 함."
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                        "만약 비밀길이나 버그 루트가 존재해서 그 루트로 깼다? 등록 불가.
                     </p>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
+                        "Easy버전 클리어 영상 등록불가. 오로지 원본만."
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                        "레벨이 Legacy 목록에 떨어지면, 레벨이 떨어진 후 24시간 동안 해당 레벨의 레코드를 수락하지만, 그 후에는 해당 레벨의 레코드를 안 받겠음."
                     </p>
                 </div>
             </div>
